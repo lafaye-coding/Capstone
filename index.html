@@ -4,26 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Page heading shown in the browser tab -->
+    
     <title>Ai Performance Tacker</title>
 
-    <!-- Link the stylesheet so the page is styled -->
+   
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Main page heading -->
+    
     <h1>Ai Growth Tracker</h1>
-    <!-- Subtitle describing the data source -->
+    
     <p>Business Trends and Outlook Survey (Census BtOS)</p>
 
-    <!-- Button that triggers the data fetch when clicked -->
+    
     <button id="loadPopulationBtn">Load Data</button>
-    <!-- Message line that shows loading status / record counts -->
+    
     <p id="loadInfo"></p>
 
-    <!-- The table is hidden until data is loaded, so the page starts empty -->
+  
     <table id="populationTable" class="hidden">
-        <!-- Column headers tell the user what each column means -->
+        
         <thead>
             <tr>
                 <th>Period</th>
@@ -36,11 +36,10 @@
                 <th>Std Error</th>
             </tr>
         </thead>
-        <!-- Script inserts the data rows into this body -->
+   
         <tbody></tbody>
     </table>
 
-    <!-- Single script tag: script.js uses the built-in fetch() so no extra library is needed -->
     <script src="script.js"></script>
 </body>
 </html>
