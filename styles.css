@@ -1,4 +1,4 @@
-/* --- Page layout: centers everything and sets the base look --- */
+
 body {
     font-family: Arial, sans-serif;
     background: #e3dede;
@@ -8,7 +8,7 @@ body {
     padding: 30px;
 }
 
-/* --- Buttons: default look for the "Load Data" button --- */
+
 button {
     padding: 12px 18px;
     border: none;
@@ -19,25 +19,25 @@ button {
     font-size: 16px;
 }
 
-/* --- Button hover: darkens slightly so users see it's clickable --- */
+
 button:hover {
     background: #651799;
 }
 
-/* --- Disabled button: greyed out while a request is running --- */
+
 button:disabled {
     background: #002869;
     cursor: not-allowed;
 }
 
-/* --- Table container: centers the table on the page --- */
+
 #populationTable {
     margin: 20px auto;
     border-collapse: collapse;
     max-width: 90%;
 }
 
-/* --- Table cells: shared borders and spacing for header + data cells --- */
+
 #populationTable th,
 #populationTable td {
     border: 1px solid #000c0f;
@@ -46,7 +46,7 @@ button:disabled {
     font-size: 14px;
 }
 
-/* --- Header row: brown background that stays visible when scrolling --- */
+
 #populationTable th {
     background: #711690;
     color: rgb(202, 8, 160);
@@ -54,22 +54,22 @@ button:disabled {
     top: 0;
 }
 
-/* --- Data cells: white so dark text is easy to read --- */
+
 #populationTable td {
     background: #ffffff;
 }
 
-/* --- Zebra striping: shades every other row for easier reading --- */
+
 #populationTable tr:nth-child(even) td {
     background: #f1ecec;
 }
 
-/* --- Info line color under the button --- */
+
 #loadInfo {
     color: #0c9da5;
 }
 
-/* --- Utility class: hides an element until JS removes this class --- */
+
 .hidden {
     display: none;
 }
